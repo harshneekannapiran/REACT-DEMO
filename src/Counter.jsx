@@ -13,7 +13,7 @@ function Counter(){
     function handleup(){
         setcount(precount=>precount+1);
         refCount.current+=1;
-       console.log("count "+count);
+       //console.log("count "+count);
        console.log("refCount "+refCount.current);
     }
 
