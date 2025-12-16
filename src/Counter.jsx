@@ -18,8 +18,8 @@ function Counter(){
     }
 
     useEffect(()=>{
-        //console.log(count);
-        //console.log(refCount);
+        console.log(count);
+        console.log(refCount);
     });
     return(
         <>
